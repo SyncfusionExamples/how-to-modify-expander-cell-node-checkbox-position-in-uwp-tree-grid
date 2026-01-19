@@ -237,7 +237,7 @@ The following screenshot shows the position of Node checkbox changed in `TreeGri
 
 ![Shows the node checkbox changed in SfTreeGrid](CheckBoxPositionchanged.png)
 
-Take a moment to peruse the [UWP TreeGrid - Node CheckBox](https://help.syncfusion.com/wpf/treegrid/node-checkbox) documentation, where you can find about Node CheckBox with code examples.
+Take a moment to peruse the [UWP TreeGrid - Node CheckBox](https://help.syncfusion.com/uwp/treegrid/node-checkbox) documentation, where you can find about Node CheckBox with code examples.
 
 ## Requirements to run the demo
 Visual Studio 2015 and above versions
