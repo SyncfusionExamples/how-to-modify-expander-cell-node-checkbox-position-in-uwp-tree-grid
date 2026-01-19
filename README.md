@@ -1,10 +1,10 @@
-# How to modify Expander cell node checkbox position in UWP TreeGrid (SfTreeGrid)?
+# How to Modify Expander Cell Node Checkbox Position in UWP TreeGrid?
 
-## About the sample
-This example illustrates how to modify Expander cell node checkbox position in [UWP TreeGrid](https://www.syncfusion.com/uwp-ui-controls/treegrid) (SfTreeGrid)?
+This example illustrates how to modify Expander cell node checkbox position in [UWP TreeGrid](https://www.syncfusion.com/uwp-ui-controls/treegrid) (SfTreeGrid).
 
-[UWP TreeGrid](https://www.syncfusion.com/uwp-ui-controls/treegrid) (SfTreeGrid) does not provide the direct support to change the position of Node CheckBox in [TreeGridExpanderCell](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.TreeGrid.TreeGridExpanderCell.html). You can change the position of Node CheckBox by overriding the [TreeGridExpanderCell](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.TreeGrid.TreeGridExpanderCell.html) Template in [UWP TreeGrid](https://www.syncfusion.com/uwp-ui-controls/treegrid) (SfTreeGrid).
+`TreeGrid` does not provide the direct support to change the position of Node CheckBox in [TreeGridExpanderCell](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.TreeGrid.TreeGridExpanderCell.html). You can change the position of Node CheckBox by overriding the `TreeGridExpanderCell` Template in `TreeGrid`.
 
+#### XAML
 ```XML
 <Page.Resources>
         <syncfusion1:BoolToVisiblityConverter x:Key="VisiblityConverter" />
@@ -233,13 +233,11 @@ This example illustrates how to modify Expander cell node checkbox position in [
 ```
 ![Change the checkbox position in SfTreeGrid](ChangetheCheckBoxpositioninTreeGridExpandercell.gif)
 
-The following screenshot shows the position of Node checkbox changed in [UWP TreeGrid](https://www.syncfusion.com/uwp-ui-controls/treegrid) (SfTreeGrid),
+The following screenshot shows the position of Node checkbox changed in `TreeGrid`,
 
 ![Shows the node checkbox changed in SfTreeGrid](CheckBoxPositionchanged.png)
 
-Take a moment to peruse the [UWP TreeGrid - Node CheckBox](https://help.syncfusion.com/wpf/treegrid/node-checkbox) documentation, where you can find about Node CheckBox with code examples.
-
-Please refer this [link](https://www.syncfusion.com/uwp-ui-controls/treegrid) to know about the essential features of UWP TreeGrid.
+Take a moment to peruse the [UWP TreeGrid - Node CheckBox](https://help.syncfusion.com/uwp/treegrid/node-checkbox) documentation, where you can find about Node CheckBox with code examples.
 
 ## Requirements to run the demo
 Visual Studio 2015 and above versions
